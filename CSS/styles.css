@@ -1,0 +1,195 @@
+
+
+.list{
+    list-style: none;
+}
+.link{
+    text-decoration: none;
+}
+
+/* ============================== HEADER ==============================*/
+.logo-link{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19; 
+    letter-spacing: 0.03em;
+    color:#000000;
+}
+
+.logo-accent{
+    color:#2196F3;
+}
+
+.menu-link{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+
+.menu-link:hover,
+.menu-link:focus{
+    color: #2196F3;
+}
+
+.mail-link{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+
+.mail-link:hover,
+.mail-link:focus{
+    color: #2196F3;
+}
+
+.tel-link{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+
+.tel-link:hover,
+.tel-link:focus{
+    color: #2196F3;
+}
+/* ============================== END HEADER ==============================*/
+
+/* ============================== HERO ==============================*/
+.hero-title{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.modal-btn{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    background-color: #188CE8;
+}
+/* ============================== END HERO ==============================*/
+
+/* ============================== ADVANTANGES ==============================*/
+.advantages-item-title{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.advantages-item-text{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+/* ============================== END ADVANTANGES ==============================*/
+
+/* ==============================WHAT-WE-DO ==============================*/
+.works-title{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+/* ==============================END WHAT-WE-DO ==============================*/
+
+/* ==============================TEAM ==============================*/
+.team-title{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.team-img-title{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.team-img-text{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+/* ==============================END TEAM ==============================*/
+
+/* ============================== FOOTER ============================== */
+.adr-item{
+    font-style: normal;
+}
+
+.adr-map{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color:#000000;
+}
+
+.adr-map:hover,
+.adr-map:focus{
+    color: #2196F3;
+}
+
+.adr-mail link{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color:black;                 
+    /* color: rgba(255, 255, 255, 0.6); */
+
+}
+
+.adr-tel link{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color:black;
+    /* color: rgba(255, 255, 255, 0.6); */
+}
+/* ============================== END FOOTER ============================== */
+
