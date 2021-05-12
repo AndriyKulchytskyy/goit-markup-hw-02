@@ -1,4 +1,7 @@
-
+:root{
+    --main-font: 'Roboto', sans-serif;
+    --second-font: 'Raleway', sans-serif;
+}
 
 .list{
     list-style: none;
@@ -9,7 +12,7 @@
 
 /* ============================== HEADER ==============================*/
 .logo-link{
-    font-family: 'Raleway', sans-serif;
+    font-family: var(--second-font);
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19; 
@@ -22,7 +25,7 @@
 }
 
 .menu-link{
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--main-font);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -36,7 +39,7 @@
 }
 
 .mail-link{
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--main-font);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -50,7 +53,7 @@
 }
 
 .tel-link{
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--main-font);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -64,9 +67,12 @@
 }
 /* ============================== END HEADER ==============================*/
 
+.body-index{
+    font-family: var(--main-font);
+}
+
 /* ============================== HERO ==============================*/
 .hero-title{
-    font-family: 'Roboto', sans-serif;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -76,7 +82,7 @@
 }
 
 .modal-btn{
-    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
@@ -84,13 +90,13 @@
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
+    color: #FFFFFF;
     background-color: #188CE8;
 }
 /* ============================== END HERO ==============================*/
 
 /* ============================== ADVANTANGES ==============================*/
 .advantages-item-title{
-    font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -99,7 +105,6 @@
 }
 
 .advantages-item-text{
-    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -110,7 +115,6 @@
 
 /* ==============================WHAT-WE-DO ==============================*/
 .works-title{
-    font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
@@ -122,7 +126,6 @@
 
 /* ==============================TEAM ==============================*/
 .team-title{
-    font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
@@ -132,7 +135,6 @@
 }
 
 .team-img-title{
-    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
@@ -142,7 +144,6 @@
 }
 
 .team-img-text{
-    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.18;
@@ -158,7 +159,6 @@
 }
 
 .adr-map{
-    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -166,13 +166,7 @@
     color:#000000;
 }
 
-.adr-map:hover,
-.adr-map:focus{
-    color: #2196F3;
-}
-
-.adr-mail link{
-    font-family: 'Roboto', sans-serif;
+.adr-mail{
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -182,8 +176,7 @@
 
 }
 
-.adr-tel link{
-    font-family: 'Roboto', sans-serif;
+.adr-tel{
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -191,5 +184,72 @@
     color:black;
     /* color: rgba(255, 255, 255, 0.6); */
 }
+
+
+.adr-map:hover,
+.adr-map:focus,
+.adr-mail:hover,
+.adr-mail:focus,
+.adr-tel:hover,
+.adr-tel:focus
+{
+    color: #2196F3;
+}
 /* ============================== END FOOTER ============================== */
 
+
+
+
+/* +++++++++++++++++++++++++++++++++++++++++++++    PORTFOLIO     +++++++++++++++++++++++++++++++++++++++++++++*/
+
+.body-portfolio{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* ============================== PAGE_NAVIGATION ============================== */
+.wiev-btn{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+background: #F5F4FA;
+cursor: pointer;
+}
+
+.wiev-btn:hover,
+.wiev-btn:focus{
+    color: #FFFFFF;
+    background: #2196F3;    
+}
+/* ============================== END PAGE_NAVIGATION ============================== */
+
+/* ============================== PROJECTS ============================== */
+
+.projects-title{
+    display:none;
+}
+
+.projects-list-item{
+    background: #FFFFFF;
+}
+
+.projects-img-title{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+
+.projects-img-text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+/* ============================== END PROJECTS ============================== */
