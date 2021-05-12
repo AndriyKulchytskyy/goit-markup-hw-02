@@ -244,8 +244,7 @@ cursor: pointer;
 }
 
 .projects-img-text{
-    font-style: normal;
-    font-weight: normal;
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
