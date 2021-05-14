@@ -1,8 +1,10 @@
 :root{
     --main-font: 'Roboto', sans-serif;
     --second-font: 'Raleway', sans-serif;
+    --main-color: #212121;
+    --second-color: #757575;
+    --accent-color: #2196F3;
 }
-
 .list{
     list-style: none;
 }
@@ -21,7 +23,7 @@
 }
 
 .logo-accent{
-    color:#2196F3;
+    color: var(--accent-color);
 }
 
 .menu-link{
@@ -30,12 +32,12 @@
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: #212121;
+    color: var(--main-color);
 }
 
 .menu-link:hover,
 .menu-link:focus{
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 .mail-link{
@@ -44,12 +46,12 @@
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: #757575;
+    color: var(--second-color);
 }
 
 .mail-link:hover,
 .mail-link:focus{
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 .tel-link{
@@ -58,12 +60,12 @@
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: #757575;
+    color: var(--second-color);
 }
 
 .tel-link:hover,
 .tel-link:focus{
-    color: #2196F3;
+    color: var(--accent-color);
 }
 /* ============================== END HEADER ==============================*/
 
@@ -82,6 +84,7 @@
 }
 
 .modal-btn{
+    font-family: var(--main-font);
     cursor: pointer;
     font-weight: 700;
     font-size: 16px;
@@ -109,7 +112,7 @@
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--second-color);
 }
 /* ============================== END ADVANTANGES ==============================*/
 
@@ -120,7 +123,7 @@
     line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--main-color);
 }
 /* ==============================END WHAT-WE-DO ==============================*/
 
@@ -131,7 +134,7 @@
     line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--main-color);
 }
 
 .team-img-title{
@@ -140,7 +143,7 @@
     line-height: 1.18;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--main-color);
 }
 
 .team-img-text{
@@ -149,7 +152,7 @@
     line-height: 1.18;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--second-color);
 }
 /* ==============================END TEAM ==============================*/
 
@@ -171,7 +174,7 @@
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color:black;                 
+    color:#000000;              
     /* color: rgba(255, 255, 255, 0.6); */
 
 }
@@ -181,10 +184,9 @@
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color:black;
+    color:#000000;
     /* color: rgba(255, 255, 255, 0.6); */
 }
-
 
 .adr-map:hover,
 .adr-map:focus,
@@ -193,7 +195,7 @@
 .adr-tel:hover,
 .adr-tel:focus
 {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 /* ============================== END FOOTER ============================== */
 
@@ -208,20 +210,21 @@
 
 /* ============================== PAGE_NAVIGATION ============================== */
 .wiev-btn{
-font-weight: 500;
-font-size: 16px;
-line-height: 1.62;
-text-align: center;
-letter-spacing: 0.03em;
-color: #212121;
-background: #F5F4FA;
-cursor: pointer;
+    font-family: var(--main-font);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-color);
+    background: #F5F4FA;
+    cursor: pointer;
 }
 
 .wiev-btn:hover,
 .wiev-btn:focus{
     color: #FFFFFF;
-    background: #2196F3;    
+    background: var(--accent-color);  
 }
 /* ============================== END PAGE_NAVIGATION ============================== */
 
@@ -240,7 +243,7 @@ cursor: pointer;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    color: #212121;
+    color: var(--main-color);
 }
 
 .projects-img-text{
@@ -248,7 +251,7 @@ cursor: pointer;
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--second-color);
 }
 
 /* ============================== END PROJECTS ============================== */
